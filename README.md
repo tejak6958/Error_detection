@@ -16,8 +16,8 @@ Target variable:
 math score: Math score of a student.
 Dataset Source Link : https://www.kaggle.com/datasets/spscientist/students-performance-in-exams?resource=download
 
-Animation of UI
-HomepageUI
+
+
 
 Project Development Approach
 Data Ingestion :
@@ -42,10 +42,12 @@ Flask App creation :
 
 Flask app is created with User Interface to predict the math score of a student given the required features inside a Web Application.
 Exploratory Data Analysis Notebook
-Link : EDA Notebook
+Link : [EDA Notebook](https://github.com/tejak6958/Score_detection/blob/main/notebook/eda_on_data.ipynb)
+
 
 Model Training Approach Notebook
-Link : Model Training Notebook
+Link : [Model_Training](https://github.com/tejak6958/Score_detection/blob/main/notebook/MODEL%20TRAINING.ipynb)
+
 
 Usage:
 1.conda create -p std python=3.8 -y
