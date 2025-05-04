@@ -50,3 +50,10 @@ def evaluate_models(self, X_train, y_train, X_test, y_test, models, params):
         return evaluation_report
     except Exception as e:
         raise CustomException(e, sys)
+    
+def load_data(file_path):
+    try:
+        with open(file_path, 'rb') as file_obj:
+            return dill.load(file_obj)
+    except Exception as e:
+        raise CustomException(e, sys) from e
