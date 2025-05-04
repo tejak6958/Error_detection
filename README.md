@@ -1,4 +1,4 @@
-Student Performance Indicator
+### Student Performance Indicator
 Information About the Dataset:
 The dataset The goal of this project is to understand the influence of the parents background, test preparation, and various other variables on the students math score.
 
